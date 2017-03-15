@@ -11,7 +11,7 @@ $urlRouterProvider.when('', '/');
       url: '/'
     })
 
-    .state('to-do', {
+    .state('todo', {
       templateUrl: './views/todo.html' ,
       controller: 'mainCtrl',
       url: '/todo'
