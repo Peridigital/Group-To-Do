@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 angular.module('groupToDo', ['ui.router'])
-=======
-angular.module('groupToDo', ['us.router'])
->>>>>>> 584edba90815cbcefb478df09c9bc2e23b76fbb1
 
   .config( function ($urlRouterProvider, $stateProvider){
 
@@ -21,13 +17,5 @@ $urlRouterProvider.when('', '/');
       url: '/todo'
     })
 
-<<<<<<< HEAD
-    .state('archive', {
-      templateUrl: 'archive.html'
-      controller: 'archiveCtrl',
-      url: 'archive'
-    })
-=======
->>>>>>> 584edba90815cbcefb478df09c9bc2e23b76fbb1
 
 }
