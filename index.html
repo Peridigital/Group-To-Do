@@ -2,10 +2,18 @@
 <html ng-app="groupToDo">
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Diplomata+SC" rel="stylesheet">
   </head>
   <body ng-controller="mainCtrl">
 
-    {{test}}
+    
+
+    <button ng-click="addNewToDo('Test', 'Hello, I am a test!')">Add Test</button>
+
+    <div ng-repeat="item in toDoArray">
+      <h3>{{item.test}}</h3>
+      <p>{{item.description}}</p>
+    </div>
 
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js"></script>
