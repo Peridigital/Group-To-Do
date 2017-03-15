@@ -1,4 +1,4 @@
-angular.module('groupToDo', ['us.router'])
+angular.module('groupToDo', ['ui.router'])
 
   .config( function ($urlRouterProvider, $stateProvider){
 
