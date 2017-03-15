@@ -6,14 +6,14 @@ $urlRouterProvider.when('', '/');
 
   $stateProvider
     .state('welcome', {
-      templateUrl: 'welcome.html',
-      contoller: 'welcomeCtrl',
+      templateUrl: '/views/welcome.html',
+      contoller: 'mainCtrl'check,
       url: '/'
     })
 
     .state('to-do', {
-      templateUrl: 'todo.html' ,
-      controller: 'todoCtrl',
+      templateUrl: '/views/todo.html' ,
+      controller: 'mainCtrl',
       url: '/todo'
     })
 
