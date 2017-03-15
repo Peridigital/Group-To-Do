@@ -7,7 +7,7 @@ $urlRouterProvider.when('', '/');
   $stateProvider
     .state('welcome', {
       templateUrl: '/views/welcome.html',
-      contoller: 'mainCtrl'check,
+      contoller: 'mainCtrl',
       url: '/'
     })
 
